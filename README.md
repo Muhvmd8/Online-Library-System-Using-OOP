@@ -5,6 +5,13 @@
   was developed using Object Oriented Programming.
 # Languages: 
   c++
+# Used Princeples In Project:
+  1- Enacapsulation
+  2- Abstraction
+  3- treating with files
+  4- single responsiblity
+  
+
 
 
 
