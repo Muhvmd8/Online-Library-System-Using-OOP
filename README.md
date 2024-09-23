@@ -12,7 +12,7 @@
   - Inheritance
   - treating with files
 ### Solid Principles:
-  single responsiblity
+  - single responsiblity
   
 
 
