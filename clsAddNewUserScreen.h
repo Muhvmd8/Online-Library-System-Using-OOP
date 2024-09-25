@@ -63,7 +63,7 @@ private:
 
         cout << "\nDo you want to give access to : \n ";
 
-        cout << "\nShow Client List? y/n? ";
+        cout << "\nShow Book List? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
@@ -72,28 +72,28 @@ private:
             Permissions += clsUser::enPermissions::pListBooks;
         }
 
-        cout << "\nAdd New Client? y/n? ";
+        cout << "\nAdd New Book? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
             Permissions += clsUser::enPermissions::pAddNewBook;
         }
 
-        cout << "\nDelete Client? y/n? ";
+        cout << "\nDelete Book? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
             Permissions += clsUser::enPermissions::pDeleteBook;
         }
 
-        cout << "\nUpdate Client? y/n? ";
+        cout << "\nUpdate Book? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
             Permissions += clsUser::enPermissions::pUpdateBook;
         }
 
-        cout << "\nFind Client? y/n? ";
+        cout << "\nFind Book? y/n? ";
         cin >> Answer;
         if (Answer == 'y' || Answer == 'Y')
         {
